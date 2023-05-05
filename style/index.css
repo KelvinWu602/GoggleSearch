@@ -1,0 +1,52 @@
+.pagesummary{
+    background-color: rgb(214, 214, 214);
+    border-radius: 15px;
+    width: 90vw;
+    height: auto;
+    padding: 20px;
+    margin: 20px 20px;
+    line-height: 50%;
+}
+
+.searchbox {
+    width: 90%;
+    height: 50px;
+    border-radius: 5px;
+    border-width: 0px;
+    text-align: center;
+    font-size: large;
+    margin: 10px 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.searchbtn {
+    width: 10%;
+    height: 50px;
+    border-radius: 5px;
+    border-width: 0px;
+    text-align: center;
+    margin: 10px 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.searchdiv{
+    display: flex;
+}
+
+.maximise {
+    height: 100vh;
+    align-items: center;
+}
+
+
+
+body{
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+
+html {
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+
