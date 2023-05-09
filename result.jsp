@@ -3,6 +3,8 @@
 <%@ page import="IRUtilities.Query" %>
 <%@ page import="IRUtilities.Entry" %>
 <%@ page import="IRUtilities.PageSummary" %>
+<%@ page import="IRUtilities.WordProfile" %>
+
 
 <%@ page import="java.text.DecimalFormat" %>
 <%@ page import="java.lang.String"     %>
@@ -67,9 +69,9 @@
                             
                             int i = 0;
                             out.write("<pre><p>             ");
-                            for(Map.Entry<String,Long> words : ps.keywords.entrySet()){
-                                if(i++>10) break;
-                                out.write(words.getKey() + " " + words.getValue() + "; ");
+                            for(WordProfile words : ps.keywords){
+                                if(i++>5) break;
+                                out.write(words.word + " " + words.frequency + "; ");
                             }
                             out.write("</p></pre>");
 
